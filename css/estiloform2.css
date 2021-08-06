@@ -1,0 +1,161 @@
+/*******ESTILIZANDO FORMULÁRIOS PARTE 2*****/
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
+	background-size: cover;
+
+}
+#container{
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}	
+#container img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+input{
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding-left: 40px;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+
+}
+
+input.email{
+	background-image: url(../imagens/icone-usuario.png);
+}
+input.senha{
+	background-image: url(../imagens/icone-cadeado.png);
+}
+
+input.submit{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+/****** Tela de cadastro *******/
+
+#container-cadastro{
+	width: 700px;
+	height: 450px;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: left;
+
+
+}
+
+
+p{
+	margin: 5px 20px 20px 30px;
+}
+
+input.entradas{
+	width: 300px;
+	padding-left: 10px;
+	text-align: left;
+	/*margin-left: 25px;*/
+	margin: -20px 20px 0px 30px;
+	border-radius: 10px;
+}
+
+
+#cadastramento{
+	width: 400px;
+	height: 100%;
+	border-right: 1px solid white;
+
+}
+
+#termo{
+	clear: both;
+	height: 1em;
+	margin: 20px -145px 40px -120px;
+}
+
+#li{
+	clear: both;
+	position: absolute;
+	height: 1em;
+	margin: -59px 0px 0px 55px;
+	text-decoration: underline;
+
+}
+
+input.cadastrar{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	margin: -20px 0px 0px 100px;
+	height: 45px;
+	width: 200px;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	position: absolute;
+	margin: 60px 30px 30px 30px;
+
+}
+
+
+#ja-possui{
+
+	text-align: center;
+	margin-top: -380px;
+	margin-left: 58%;
+	display: block;
+	width: 40%;
+	/*background: whitesmoke;*/
+	padding-bottom: 2px;
+}
+
+#sim{
+
+	font-size: 1.4em;
+}
+
+#clique{
+	text-decoration: none;
+	
+	font-size: 15px;
+	line-height: 1.2em;
+	color: #fff;
+
+}
+
+#back-clique{
+		
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 25px;
+	margin: -20px 0px 0px 100px;
+	height: 25px;
+	width: 140px;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+	position: absolute;
+	margin: -10px 30px 30px 43px;
+	text-align: center;
+
+}
